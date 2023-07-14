@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.container{
+    background-color: rgb(11, 188, 129);
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.bio{
+    float: left;
+    padding: 30px;
+}
+
+h1, h2, h3, h4, h5,h6{
+    color: rgb(5, 49, 49);
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: rgb(95, 19, 6);
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*
+------------------------
+personal section Start
+-------------------------
+*/
+
+
+.content{
+    margin-bottom: 30px;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.commmon-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto;
+}
+
+/*
+------------------------
+Education section Start
+-------------------------
+*/
+.edu-left{
+    float: left;
+    width: 45%;
+}
+
+.edu-right{
+    float: right;
+    width: 45%;
+}
+
+/*
+------------------------
+Footer Start
+-------------------------
+*/
+
+.container-bottom{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.container-bottom a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.container-bottom p{
+    color: white;
+    margin-top: 20px;
+}
